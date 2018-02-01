@@ -1,3 +1,115 @@
+
+/* additional */
+ /* google fonts */
+     
+   
+       @import url('https://fonts.googleapis.com/css?family=Cinzel|Libre+Barcode+39+Text|Teko');
+       @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Cinzel|Libre+Barcode+39+Text');
+    /* header */   
+       
+       
+       header img {padding-left: 39rem;
+                   padding-bottom: 3rem;
+                  }
+                   
+       
+       header {margin-top: 1.5rem;
+               margin-left: 5rem;
+               margin-right: 5rem;}
+       
+       h1 {font-family: 'Libre Barcode 39 Text', cursive;
+           text-align: center;
+           font-size: 500%;}
+       
+       aside {padding-bottom: 5rem;}
+       ul {align-self: center;
+           list-style-type:none;
+           margin: 0rem;
+           padding-top: 2rem;
+           padding-left: 4rem;
+           width: 10%;
+           background-color: ;
+           opacity: 0.9;
+           position: fixed;
+           height: 100%;
+           overflow: auto;
+       }
+       
+       li a {
+             
+           margin: 3px;
+           display:block;
+           color:rosybrown;
+           padding: 20px 13px;
+           text-decoration: none;}
+       
+ 
+       li a.active {color: white;}
+
+li a:hover:not(.active) {
+    background-color: gainsboro;
+    color: white;}
+       
+       
+  /*items listing */
+       
+       .item-container {margin-top: 0;
+                        margin-left: 15rem;
+                        margin-right: 40rem;
+           
+           float: left;
+            
+       display: flex;
+       flex-direction: column;
+       }
+       
+       
+       .item-container img {width: 12rem;
+                            margin-right: 15rem;}
+       
+       .first {display: flex;
+               flex-direction: row;
+               justify-content: space-around;
+               margin-left: 10rem;
+               margin-top: 5rem;}
+      
+       .second {display: flex;
+               flex-direction: row;
+               justify-content: space-around;
+               margin-left: 10rem;
+               margin-top: 5rem;}
+       
+       .third {display: flex;
+               flex-direction: row;
+               justify-content: space-around;
+               margin-left: 10rem;
+               margin-top: 5rem;}
+      
+       .fourth {display: flex;
+               flex-direction: row;
+               justify-content: space-around;
+               margin-left: 10rem;
+               margin-top: 5rem;}
+       
+       
+       p {font-family: 'Teko', sans-serif;
+          font-size: 110%;
+          color: saddlebrown;}
+       
+       h3 {font-family: 'Alfa Slab One', cursive;
+          font-size: 130%;
+          margin-bottom: 3rem;}
+       
+       h2 {font-family: 'Alfa Slab One', cursive;
+          font-size: 200%;}
+    
+
+
+
+/* above is what i added */
+
+
+
 body {
   font-size: 100%;
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
