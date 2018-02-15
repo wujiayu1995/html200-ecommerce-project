@@ -11,7 +11,8 @@
        header img {padding-left: 39rem;
                    padding-bottom: 3rem;
                   }
-                   
+       
+
        
        header {margin-top: 1.5rem;
                margin-left: 5rem;
@@ -47,9 +48,15 @@
        li a.active {color: white;}
 
 li a:hover:not(.active) {
-    background-color: gainsboro;
+    background-color: gainsbsoro;
     color: white;}
        
+/* body */
+
+body {background: linear-gradient(orange, white); }
+
+
+
        
   /*items listing */
        
