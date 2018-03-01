@@ -6,3 +6,4 @@ function capture() {
     console.log ("thank you for signing up as" + theEmail)
     alert ("Thank you for signing up as" + theEmail)
 }
+

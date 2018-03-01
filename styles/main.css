@@ -53,8 +53,18 @@ li a:hover:not(.active) {
        
 /* body */
 
-body {background: linear-gradient(orange, white); }
+body {background: white; }
+@media screen and (min-width: 400px) {
+    body {
+        background-color: lightpink;
+    }
+}
 
+@media screen and (min-width: 800px) {
+    body {
+        background-color: lightgoldenrodyellow;
+    }
+}
 
 
        
@@ -110,7 +120,67 @@ body {background: linear-gradient(orange, white); }
        h2 {font-family: 'Alfa Slab One', cursive;
           font-size: 200%;}
     
+/* media */
 
+
+@media (max-width: 720px) {
+ header {
+   display: flex;
+  flex-flow: wrap; 
+    color: grey;
+ }
+}
+
+
+@media (max-width: 720px) {
+ header img {
+   float: left;
+   display: block;
+   max-height: 100%;
+ }
+}
+
+@media (max-width: 720px) {
+ h1 {
+   display: block;
+   text-align: left;
+ }
+}
+
+@media (max-width: 720px) {
+ h2 {
+   display: block;
+   text-align: left;
+ }
+}
+
+@media (max-width: 720px) {
+ h3 {
+   display: block;
+   text-align: left;
+ }
+}
+
+@media (max-width: 720px) {
+ h3 {
+   display: block;
+   text-align: left;
+ }
+}
+
+
+@media (max-width: 720px) {
+ header {
+   width: 50%;
+ }
+}
+
+
+@media (max-width: 720px) {
+ body {
+   width: 50%;
+ }
+}
 
 
 /* above is what i added */

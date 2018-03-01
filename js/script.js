@@ -14,6 +14,7 @@ function capture() {
 
 
 
+
 var products = [
   {
     "name": "Reversible Plaid",
