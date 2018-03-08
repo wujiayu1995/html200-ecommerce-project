@@ -1,9 +1,12 @@
-function capture() {
-    event. preventDefault()
-    console. log ("form submitted")
-    
-    var theEmail = document.custInfo.email.value
-    console.log ("thank you for signing up as" + theEmail)
-    alert ("Thank you for signing up as" + theEmail)
+function addtocart() {
+    document.getElementById("added").innerHTML = "1 item added to cart";
 }
 
+function removefromcart() {
+    document.getElementById("remove").innerHTML = "1 item removed from cart";
+}
+
+
+function viewCart() {
+    document.getElementById("cart").innerHTML = "1 item in your cart now";
+}
