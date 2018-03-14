@@ -35,7 +35,7 @@ function add (itemFullName,price) {
   
  
   if(shoppingCart.length != 0) {
-    document.querySelector("#cartcount").innerHTML = ("  (" + shoppingCart.length + ")")
+    document.querySelector("#cartcount").innerHTML = ("" +"shoppingCart.length")
   }
   
   else {
