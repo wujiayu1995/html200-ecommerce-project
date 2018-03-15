@@ -69,4 +69,49 @@ Lesson 09:
 Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
 
 ## Testing
-[update this section with information about the testing steps you took to ensure site quality]
+This website is targeting on groups of people who live in a cold area and not desire to get the trendiest fashion items with a high price.
+
+Website audience:
+- College students live in Midwest and east coast.
+- Middle& High school students live in Midwest and east coast.
+- People work outside of their houses. (Commuting every day)
+- People stay/ work at home.
+- For gift purpose.
+
+
+For people who work outside of their houses.
+
+Age and age groups: Adults, mostly after 20-year-old
+Personal life-style: resident
+Gender: Female > Male
+Language: English
+Education: Middle school, high school, college, graduates
+Learning preferences: learns by example
+Work attributes: employee, home uties, business owner
+Expectations: Nice design with a accecptable price, not to fashionable
+Existing knowledge: not too much, only base on the photos.
+Web and computer experience: Medium.
+On what device they will read it: Mostly PC.Mac. Iphone
+Internet connection speed: Standard broadband.
+User's location: national
+Place where the page is read: At home
+Why user seek the content: For purchasing purpose
+Importance of the content to them: useful
+How they found the page: Google, poped out Ad
+When it is read: In the evening, around 7pm~9pm
+
+
+
+Responsive design test:
+Used: http://responsivedesignchecker.com/
+Conclusion: The url works fine on PC devices but not mobile devices. Need to be fixed.
+Apple Ipad Pro shows the same page as the most PC does.
+10" Notebook cannot show the complete content, need to be fixed.
+24" Desktop show too much edge, need to be fixed.
+
+
+Speed test:
+Used: https://www.webpagetest.org
+
+From: Dulles, VA- Chrome- cable takes 2.386s
+From: Paris, France- IE11- Cable takes 8.532s.
